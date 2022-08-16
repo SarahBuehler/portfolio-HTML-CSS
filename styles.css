@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Baloo Bhaina 2", cursive;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+}
+
+/* ***** SIDE BAR ***** */
+.side-bar {
+  margin: 25px;
+  height: 95vh;
+  width: fit-content;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(97, 95, 102, 0.292);
+  box-shadow: 10px 20px 15px silver;
+  border-radius: 1rem;
+}
+
+.side-bar-icon {
+  height: 40px;
+}
+
+.side-bar-icon:hover {
+  transform: scale(1.5);
+  filter: invert(16%) sepia(20%) saturate(7064%) hue-rotate(342deg)
+    brightness(93%) contrast(118%);
+  /* color: #800404; */
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  padding: 15px 10px;
+}
+
+/* ***** MAIN ***** */
+.sprung {
+  visibility: hidden;
+  height: 0px !important;
+  position: absolute;
+  margin: -100px;
+}
+
+section {
+  height: 80vh;
+  margin: 25px 50px 200px 125px;
+  background-color: rgba(97, 95, 102, 0.292);
+  box-shadow: 10px 20px 15px silver;
+  border-radius: 1rem;
+  padding: 50px;
+}
+
+section > h1 {
+  margin-bottom: 25px;
+}
+
+/* ***** PROJEKTE ***** */
+.skills > li > img {
+  height: 60px;
+}
+
+.skills > li > img:hover {
+  transform: scale(1.5);
+  filter: invert(16%) sepia(20%) saturate(7064%) hue-rotate(342deg)
+    brightness(93%) contrast(118%);
+}
+
+.skills > li {
+  display: inline;
+}
+
+.projekt-img {
+  height: 500px;
+}
